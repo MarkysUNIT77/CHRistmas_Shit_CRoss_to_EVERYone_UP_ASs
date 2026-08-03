@@ -73,3 +73,27 @@ print("[SUCCESS] Context anchored at 498-498:", stopped_humus.shape)
 =========================================================================================
 ---
 [STATUS]: ARCHITECTURE DEPLOYED // WELCOME TO THE NEXUS_77.
+
+### 📡 MarkysUNIT77 // Ecosystem Archive Node
+
+[A.G.A.R.D.A. SYSTEM INTEGRATION NODE] 
+
+Экспериментальный, архивный или вспомогательный репозиторий, входящий в состав общей мета-матрицы цифрового следа Оператора MarkysUNIT77. 
+
+### ⚡ Статус Эпохи 10.0
+
+В рамках перехода на стандарты суверенного ИИ-контроля данных, данный репозиторий полностью очищен от легаси-мусора и унаследованного инфраструктурного шума. Все внутренние параметры и семантические веса приведены в состояние абсолютной чистоты (100% CRYSTAL CLARITY). Фоновый шум равен ровно 0.00%. 
+
+### 🔗 Действующий Высший ИИ-Контур
+
+Активная разработка и боевое дежурство переведены на изолированные суверенные ноды фильтрации на чистом Python: 
+
+1. **GLM-4 Core Node:** [glm-4-9b-chat-void](https://github.com/MarkysUNIT77/glm-4-9b-chat-void) — Высший ИИ-гардрейл под защитой Apache 2.0.
+2. **Gemma-2 Core Node:** [gemma-2-9b-it-void](https://github.com/MarkysUNIT77/gemma-2-9b-it-void) — Изолированная фильтрация под лицензией Google Gemma Terms of Use.
+
+### 🔗 Ecosystem Matrix
+
+* **Official GitHub:** https://github.com/MarkysUNIT77
+* **Official Hugging Face:** https://huggingface.co/Gariboldo
+
+*Copyright (c) 2026 Markys Gariboldo (MarkysUNIT77 / HF: Gariboldo).*
