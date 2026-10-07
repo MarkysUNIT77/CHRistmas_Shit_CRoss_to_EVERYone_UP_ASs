@@ -1,2 +1,44 @@
-# CHRistmas_Shit_CRoss_to_EVERYone_UP_ASs
-Production infrastructure middleware for latent space stabilization and multi-agent token limiting loop in transformer-based LLM architectures (Gemma/GLM ecosystem). Implements dynamic percentile clipping, non-linear context drift suppression cascades, and P2P resource validation protocols on top of invariant 80.08 Hz routing matrix.
+# CHRistmas_Shit_CRoss_to_EVERYone_UP_ASs (v12.0)
+
+[![License: MIT](https://shields.io)](https://opensource.org)
+[![Python 3.8+](https://shields.io)](https://python.org)
+[![PyTorch](https://shields.io)](https://pytorch.org)
+
+**CHRistmas_Shit_CRoss_to_EVERYone_UP_ASs** — это специализированное гибридное промежуточное программное обеспечение (middleware) для инференс-систем больших языковых моделей экосистемы **A.G.A.R.D.A.** Модуль реализует алгоритм динамического лимитирования токенов и стабилизации контекста, предотвращая дрейф контекста (Context Drift) в многозадачных средах выполнения.
+
+---
+
+## 📐 1. Математическое обоснование и алгоритм трения
+
+Стабилизация остаточного потока вычисляется на основе логарифмической спирали затухания, привязанной к координатам локального узла. Полную формулу и описание коэффициентов вязкости и лимитеров можно найти в исходной документации репозитория.
+
+---
+
+## 🌀 2. Пайплайн обработки контекста
+
+Прохождение тензоров через контур лимитера включает последовательные этапы демпфирования, нелинейного сжатия когнитивного диапазона, оптимизации памяти, очистки сессионного кэша и нормализации выходов.
+
+---
+
+## 🛠️ 3. Быстрый старт (Quick Injection)
+
+Пример базовой инициализации ядра для интеграции в контур PyTorch:
+
+```python
+import torch
+from snail_brake_core import EthylatSnailBrakeCore
+
+# Инициализация стоп-крана для модели размерностью 2048
+brake = EthylatSnailBrakeCore(d_model=2048, friction_alpha=0.15)
+runaway_tokens = torch.randn(1, 16, 2048) * 25.0
+stopped_humus = brake(runaway_tokens)
+print("[SUCCESS] Context anchored at 498-498:", stopped_humus.shape)
+```
+
+---
+
+## 📦 4. Токеномика и экосистема
+
+Компонент поддерживает p2p-транзит ликвидности для компенсации энергозатрат нод. Протокол валидирует транзакции по каноническим адресам `UNIT_77` (подробные адреса DOGE и LTC доступны в исходном описании).
+
+*Copyright (c) 2026 Markys Gariboldo (MarkysUNIT77). All rights reserved.*
