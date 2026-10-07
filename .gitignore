@@ -1,0 +1,51 @@
+# ==============================================================================
+# REPOSITORY: CHRistmas_Shit_CRoss_to_EVERYone_UP_ASs (v12.0_Overlord)
+# CONTOUR: GENERAL STRUCTURE CLEANING // EPOCH 11.0 // FILTER ACTIVE
+# ==============================================================================
+
+# Python-специфичный системный мусор (Кэш компиляции)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Временные файлы PyTorch, чекпоинты и логи обучения
+*.pt
+*.pth
+*.ckpt
+.ruff_cache/
+.images_api_cache/
+
+# Локальные виртуальные окружения (Субстрат хоста)
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Мусор сред разработки (VS Code, PyCharm и временные трекеры)
+.vscode/
+.idea/
+.project
+.spyderproject
+tempCodeRunnerFile.py
+
+# Системные скрытые файлы ОС (Mac / Windows)
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Распределённая память и сырые бинарные дампы 
+# (np.memmap файлы живут локально в /dev/shm/, в репо им не место)
+*.raw
+*.bin
+*.memmap
+*.log
+
+# Файлы конфигурации и секреты хоста
+config.local.json
+secrets.toml
